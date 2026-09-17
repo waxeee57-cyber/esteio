@@ -1,0 +1,218 @@
+{
+  "categories": [
+    {
+      "slug": "scaffolding",
+      "name": "Scaffolding",
+      "kicker": "01 — Access systems",
+      "headline": "Façade, ring-lock and towers that read as a drawing, not a catalogue photo.",
+      "lead": "Hot-dip galvanized S355 standards, 8-way rosettes, and EN 12810 load classes specified for Portuguese wind zones and Atlantic salt. Hire, sale, or mixed fleet.",
+      "standards": ["EN 12810", "EN 12811", "EN ISO 1461", "NP EN 1991-1-4"],
+      "heroStat": { "value": "6.0", "unit": "kN/m²", "label": "Class 6 working load" },
+      "products": [
+        {
+          "id": "est-fx-250",
+          "name": "FX-250 façade frame",
+          "code": "EST-FX-250",
+          "summary": "Frame scaffold for masonry, render, and envelope works. 2.50 m bays, 2.00 m lifts, class 4–6 decks.",
+          "uses": ["Residential façades", "Hotel envelope", "Render & ETICS"],
+          "specs": [
+            { "label": "Bay length", "value": "2.50 m / 3.00 m" },
+            { "label": "Lift height", "value": "2.00 m" },
+            { "label": "Inner width", "value": "0.73 m / 1.09 m" },
+            { "label": "Load class", "value": "4–6 (3.0–6.0 kN/m²)" },
+            { "label": "Standard", "value": "48.3 × 3.2 mm, S355" },
+            { "label": "Finish", "value": "HDG 85 µm EN ISO 1461" },
+            { "label": "Anchorage", "value": "Every 4 m / 2 lifts, EN 12811" },
+            { "label": "Max. free height", "value": "24 m without tying study" }
+          ]
+        },
+        {
+          "id": "est-rx-8",
+          "name": "RX-8 ring-lock modular",
+          "code": "EST-RX-8",
+          "summary": "Rosette system with eight connections at 45°. Birdcage, industrial, and irregular geometry without specials.",
+          "uses": ["Refineries", "Ship repair", "Atria & heritage"],
+          "specs": [
+            { "label": "Rosette", "value": "8 sockets / 500 mm centres" },
+            { "label": "Ledgers", "value": "0.73–3.07 m" },
+            { "label": "Diagonals", "value": "Bay × lift, wedge head" },
+            { "label": "Standard lengths", "value": "1.00 / 1.50 / 2.00 / 3.00 / 4.00 m" },
+            { "label": "Node SWL", "value": "50 kN vertical (service)" },
+            { "label": "Deck options", "value": "Steel, alu, timber, steel hatch" },
+            { "label": "Compatibility", "value": "Layher-pattern accessories" },
+            { "label": "Wind", "value": "Zone III Atlantic, with mesh calc" }
+          ]
+        },
+        {
+          "id": "est-mt-135",
+          "name": "MT-135 mobile tower",
+          "code": "EST-MT-135",
+          "summary": "Aluminium mobile tower for fit-out and M&E. 1.35 × 2.50 m base, double guardrail, toeboards included.",
+          "uses": ["Fit-out", "HVAC", "Warehouse lighting"],
+          "specs": [
+            { "label": "Platform size", "value": "1.35 × 2.50 m" },
+            { "label": "Platform SWL", "value": "2.0 kN/m² (class 3)" },
+            { "label": "Max. platform height indoor", "value": "12.2 m" },
+            { "label": "Max. platform height outdoor", "value": "8.2 m" },
+            { "label": "Castors", "value": "Ø 200 mm, brake, 1.0 kN" },
+            { "label": "Material", "value": "6082-T6 aluminium" },
+            { "label": "Standard", "value": "EN 1004-1" },
+            { "label": "Ballast", "value": "Per wind table, supplied" }
+          ]
+        },
+        {
+          "id": "est-wx-pro",
+          "name": "WX weather deck",
+          "code": "EST-WX-PRO",
+          "summary": "Temporary roof on ring-lock. Keeps trades working through Lisbon winter rain without full encapsulation.",
+          "uses": ["Roof replacement", "Heritage covers", "Winter programmes"],
+          "specs": [
+            { "label": "Span", "value": "12–24 m clear" },
+            { "label": "Cover", "value": "PVC 650 g/m², flame retardant" },
+            { "label": "Pitch", "value": "15° / 20°" },
+            { "label": "Snow (demo)", "value": "0.45 kN/m² Lisbon zone" },
+            { "label": "Gutter", "value": "Integrated, 70 mm" },
+            { "label": "Erection crew", "value": "4 technicians / 2 days (18 m)" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "structural",
+      "name": "Structural solutions",
+      "kicker": "02 — Load paths",
+      "headline": "Shoring, falsework and temporary steel that carry the building until the building can carry itself.",
+      "lead": "Props, heavy-duty towers and beam grids sized to Eurocode 3. We issue a load path sketch with every quotation — not a stock photo of a crane.",
+      "standards": ["EN 1065", "EN 12812", "EN 1090-2", "EC3 / NP EN 1993"],
+      "heroStat": { "value": "200", "unit": "kN", "label": "Heavy tower service load" },
+      "products": [
+        {
+          "id": "est-pr-d",
+          "name": "PR-D steel prop",
+          "code": "EST-PR-D",
+          "summary": "Adjustable prop, EN 1065 class D. Site favourite for slabs up to 400 mm and beam soffits.",
+          "uses": ["Slab soffits", "Beam U-heads", "Refurbishment"],
+          "specs": [
+            { "label": "Class", "value": "EN 1065 class D" },
+            { "label": "Range", "value": "1.80–3.50 m / 2.20–4.00 m" },
+            { "label": "Inner / outer tube", "value": "48.3 / 60.3 mm" },
+            { "label": "SWL (mid-range)", "value": "30 kN" },
+            { "label": "Pin", "value": "Ø 14 mm, lanyard" },
+            { "label": "Finish", "value": "Painted + HDG thread" }
+          ]
+        },
+        {
+          "id": "est-ht-200",
+          "name": "HT-200 heavy tower",
+          "code": "EST-HT-200",
+          "summary": "100–200 kN service towers for transfer structures, bridge decks and plant. 1.09 / 1.57 / 2.07 m bays.",
+          "uses": ["Bridge falsework", "Plant decks", "Transfer beams"],
+          "specs": [
+            { "label": "Service load / tower", "value": "100 / 150 / 200 kN" },
+            { "label": "Bay", "value": "1.09 × 1.09 to 2.07 × 2.07 m" },
+            { "label": "Head", "value": "Fork, U-head, drop-head" },
+            { "label": "Base", "value": "Swivel / fixed, 50 mm travel" },
+            { "label": "Brace", "value": "Plan + face, every lift" },
+            { "label": "Design", "value": "EN 12812 + site-specific note" }
+          ]
+        },
+        {
+          "id": "est-tb-12",
+          "name": "TB-12 temporary beam",
+          "code": "EST-TB-12",
+          "summary": "Aluminium and steel lattice beams for openings, loading platforms and crash decks.",
+          "uses": ["Loading platforms", "Crash decks", "Opening spans"],
+          "specs": [
+            { "label": "Depth", "value": "450 / 750 mm" },
+            { "label": "Length modules", "value": "1.00–6.00 m" },
+            { "label": "Moment capacity", "value": "Up to 85 kNm (steel)" },
+            { "label": "Self-weight", "value": "9.8–18.4 kg/m" },
+            { "label": "Connection", "value": "Spigot + M16 bolts" }
+          ]
+        },
+        {
+          "id": "est-lp-25",
+          "name": "LP-25 loading platform",
+          "code": "EST-LP-25",
+          "summary": "Mast-tied loading platform, 2.5 t SWL, folding gates, for Lisbon mid-rise where tower cranes share the plot.",
+          "uses": ["Blockwork", "Façade pallets", "MEP plant"],
+          "specs": [
+            { "label": "SWL", "value": "2.5 t uniformly" },
+            { "label": "Deck", "value": "2.40 × 1.50 m" },
+            { "label": "Tie", "value": "Mast + slab anchors" },
+            { "label": "Gate", "value": "Dual, spring close" },
+            { "label": "Inspection", "value": "Daily + 7-day competent person" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "modular",
+      "name": "Modular buildings",
+      "kicker": "03 — Site architecture",
+      "headline": "Offices, welfare and workshops that arrive as ISO boxes and leave as a clean plot.",
+      "lead": "Galvanized frames, mineral-wool envelopes, and electrical packs wired to Portuguese site practice. Single units or three-storey stacks with stairs and link corridors.",
+      "standards": ["ISO 668", "EN 1090", "REH / SCE", "NP 4552 welfare"],
+      "heroStat": { "value": "EI 60", "unit": "", "label": "Fire compartment option" },
+      "products": [
+        {
+          "id": "est-so-20",
+          "name": "SO-20 site office",
+          "code": "EST-SO-20",
+          "summary": "20-foot office: two desks, meeting end, heat pump, data tray. Ready in 48 hours from Loures yard.",
+          "uses": ["Main contractor office", "Client cabin", "QS room"],
+          "specs": [
+            { "label": "External", "value": "6.06 × 2.44 × 2.80 m" },
+            { "label": "U-value wall", "value": "0.35 W/m²K" },
+            { "label": "Fire", "value": "EI 30 standard / EI 60 option" },
+            { "label": "Electrical", "value": "230 V, 32 A, RCDs" },
+            { "label": "HVAC", "value": "Split 2.5 kW" },
+            { "label": "Floor live load", "value": "3.0 kN/m²" },
+            { "label": "Stack", "value": "3 storeys with stair tower" }
+          ]
+        },
+        {
+          "id": "est-wf-24",
+          "name": "WF-24 welfare",
+          "code": "EST-WF-24",
+          "summary": "Canteen, drying room and lockers in a 24-foot body. Sized for 24-person gangs on housing plots.",
+          "uses": ["Housing plots", "Civil linear sites", "Shutdowns"],
+          "specs": [
+            { "label": "External", "value": "7.30 × 2.44 × 2.80 m" },
+            { "label": "Seats", "value": "16 + 8 overflow" },
+            { "label": "Lockers", "value": "24, ventilated" },
+            { "label": "Water", "value": "Hot + cold, 80 L" },
+            { "label": "Waste", "value": "Separated, external store" }
+          ]
+        },
+        {
+          "id": "est-sn-20",
+          "name": "SN-20 sanitary",
+          "code": "EST-SN-20",
+          "summary": "Male / female / accessible WCs with tank or mains option. ACT-aligned welfare for Portuguese sites.",
+          "uses": ["All sites > 10 persons", "Public works", "Events"],
+          "specs": [
+            { "label": "WCs", "value": "3 + 1 accessible" },
+            { "label": "Showers", "value": "2 (optional)" },
+            { "label": "Tank", "value": "1 200 L waste / 400 L fresh" },
+            { "label": "Finish", "value": "GRP wet rooms" }
+          ]
+        },
+        {
+          "id": "est-ws-40",
+          "name": "WS-40 workshop",
+          "code": "EST-WS-40",
+          "summary": "40-foot workshop with roller door, 5.0 kN/m² floor, 400 V busbar. For shutdown crews and façade workshops.",
+          "uses": ["Shutdowns", "Façade prep", "Plant maintenance"],
+          "specs": [
+            { "label": "External", "value": "12.19 × 2.44 × 2.90 m" },
+            { "label": "Door", "value": "2.40 × 2.40 m roller" },
+            { "label": "Floor", "value": "5.0 kN/m², chequer plate option" },
+            { "label": "Power", "value": "400 V, 63 A" },
+            { "label": "Lifting", "value": "Eyebolts 4 × 2.5 t" }
+          ]
+        }
+      ]
+    }
+  ]
+}
