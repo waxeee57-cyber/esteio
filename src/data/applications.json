@@ -1,0 +1,83 @@
+{
+  "intro": "We specify systems against Portuguese wind, salt, and programme — not generic European stock photos.",
+  "items": [
+    {
+      "id": "lisboa-tower",
+      "sector": "High-rise",
+      "title": "Façade envelope, Parque das Nações",
+      "location": "Lisboa",
+      "system": "FX-250 + WX weather deck",
+      "summary": "24-storey residential envelope with class 6 decks, mesh, and a travelling weather roof so render continued through November rain.",
+      "stats": [
+        { "label": "Height", "value": "78 m" },
+        { "label": "Area", "value": "9 400 m²" },
+        { "label": "Programme", "value": "14 weeks" }
+      ]
+    },
+    {
+      "id": "sines-tanks",
+      "sector": "Energy",
+      "title": "Tank farm access, Port of Sines",
+      "location": "Sines",
+      "system": "RX-8 ring-lock birdcage",
+      "summary": "Circular birdcages around four crude tanks. Salt-rated HDG fleet, ATEX-aware decking, 24-hour hire desk during shutdown.",
+      "stats": [
+        { "label": "Tanks", "value": "4 × Ø 48 m" },
+        { "label": "Peak crew", "value": "60" },
+        { "label": "Hire", "value": "11 weeks" }
+      ]
+    },
+    {
+      "id": "jeronimos",
+      "sector": "Heritage",
+      "title": "Cloister restoration, Belém",
+      "location": "Lisboa",
+      "system": "RX-8 independent + timber decks",
+      "summary": "Independent scaffold standing off historic masonry. No drill-in ties to Manueline stone; kentledge and needle beams only.",
+      "stats": [
+        { "label": "Ties", "value": "0 drilled" },
+        { "label": "Span", "value": "9.2 m cloister" },
+        { "label": "Duration", "value": "9 months" }
+      ]
+    },
+    {
+      "id": "taguspark",
+      "sector": "Data",
+      "title": "Live-hall plant deck, Taguspark",
+      "location": "Oeiras",
+      "system": "HT-200 + TB-12 crash deck",
+      "summary": "Temporary steel over a live data hall. 150 kN towers, crash deck, and a 48-hour reverse-out clause in the hire contract.",
+      "stats": [
+        { "label": "Live load", "value": "150 kN/tower" },
+        { "label": "Clearance", "value": "4.8 m" },
+        { "label": "Outage", "value": "0 hours" }
+      ]
+    },
+    {
+      "id": "loures-hospital",
+      "sector": "Healthcare",
+      "title": "Ward block extension, Loures",
+      "location": "Loures",
+      "system": "SO-20 stack + FX-250",
+      "summary": "Three-storey site offices with EI 60 links, plus façade frames on the new ward. Welfare sized to ACT inspection from week one.",
+      "stats": [
+        { "label": "Cabins", "value": "18 units" },
+        { "label": "Storeys", "value": "3" },
+        { "label": "Occupants", "value": "72" }
+      ]
+    },
+    {
+      "id": "alvao-wind",
+      "sector": "Wind",
+      "title": "Nacelle access, Serra do Alvão",
+      "location": "Vila Real",
+      "system": "RX-8 + MT-135",
+      "summary": "Mountain wind zone III. Modular towers with ballast tables issued per turbine, updated daily from site anemometer.",
+      "stats": [
+        { "label": "Turbines", "value": "12" },
+        { "label": "Wind zone", "value": "III" },
+        { "label": "Shift", "value": "Night works" }
+      ]
+    }
+  ]
+}
