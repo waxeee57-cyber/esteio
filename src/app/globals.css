@@ -1,0 +1,200 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --font-display: "Barlow Condensed", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Barlow Condensed", ui-sans-serif, system-ui, sans-serif;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-safety: var(--safety);
+  --color-steel: var(--steel);
+  --color-plate: var(--plate);
+  --color-concrete: var(--concrete);
+  --color-galvanized: var(--galvanized);
+  --radius-sm: 0.125rem;
+  --radius-md: 0.125rem;
+  --radius-lg: 0.125rem;
+  --radius-xl: 0.25rem;
+  --radius-2xl: 0.25rem;
+  --radius-3xl: 0.25rem;
+  --radius-4xl: 0.25rem;
+}
+
+:root,
+.dark {
+  --steel: #0a0d10;
+  --plate: #161b22;
+  --concrete: #e6e1d6;
+  --galvanized: #8b9288;
+  --safety: #e85a17;
+  --background: #0a0d10;
+  --foreground: #e6e1d6;
+  --card: #161b22;
+  --card-foreground: #e6e1d6;
+  --popover: #161b22;
+  --popover-foreground: #e6e1d6;
+  --primary: #e85a17;
+  --primary-foreground: #0a0d10;
+  --secondary: #1e252e;
+  --secondary-foreground: #e6e1d6;
+  --muted: #1e252e;
+  --muted-foreground: #8b9288;
+  --accent: #1e252e;
+  --accent-foreground: #e6e1d6;
+  --destructive: #c44536;
+  --border: #2a323c;
+  --input: #2a323c;
+  --ring: #e85a17;
+  --chart-1: #e85a17;
+  --chart-2: #8b9288;
+  --chart-3: #e6e1d6;
+  --chart-4: #c44536;
+  --chart-5: #2a323c;
+  --radius: 0.125rem;
+  --sidebar: #161b22;
+  --sidebar-foreground: #e6e1d6;
+  --sidebar-primary: #e85a17;
+  --sidebar-primary-foreground: #0a0d10;
+  --sidebar-accent: #1e252e;
+  --sidebar-accent-foreground: #e6e1d6;
+  --sidebar-border: #2a323c;
+  --sidebar-ring: #e85a17;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply font-sans scroll-smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    background-image:
+      linear-gradient(90deg, rgb(42 50 60 / 0.35) 1px, transparent 1px),
+      linear-gradient(rgb(42 50 60 / 0.35) 1px, transparent 1px);
+    background-size: 72px 72px;
+    background-position: -1px -1px;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.02em;
+    text-wrap: balance;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--safety);
+    outline-offset: 3px;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .safety-rail {
+    box-shadow: inset 3px 0 0 0 var(--safety);
+  }
+
+  .steel-panel {
+    background: linear-gradient(180deg, #1a2129 0%, #14191f 100%);
+    border: 1px solid var(--border);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes draw-x {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.rise {
+  animation: rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.draw-x {
+  transform-origin: left;
+  animation: draw-x 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise,
+  .draw-x {
+    animation: none;
+  }
+}
+
+.esteio-pin {
+  background: transparent;
+  border: none;
+}
+
+.esteio-pin-dot {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #e85a17;
+  background: #0a0d10;
+  transform: rotate(45deg);
+}
+
+.leaflet-container {
+  background: #0a0d10;
+  font-family: "Source Sans 3", sans-serif;
+}

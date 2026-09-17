@@ -1,0 +1,56 @@
+{
+  "name": "ESTEIO",
+  "pronunciation": "ish-TAY-oo",
+  "meaning": "Portuguese for a prop, strut, or stay — the member that keeps the work standing.",
+  "voice": [
+    "Numbers before adjectives.",
+    "Specify the standard. Do not say ‘high quality’.",
+    "English for export pages. Portuguese remains on drawings and delivery notes.",
+    "Never ‘innovative solutions’. Prefer ‘EN 12810 façade frames, 2.0 m lifts’."
+  ],
+  "colors": [
+    {
+      "name": "Steel",
+      "hex": "#0A0D10",
+      "role": "Background, logo plate",
+      "cmyk": "80 / 70 / 60 / 90"
+    },
+    {
+      "name": "Plate",
+      "hex": "#161B22",
+      "role": "Cards, header, surfaces",
+      "cmyk": "75 / 60 / 50 / 70"
+    },
+    {
+      "name": "Concrete",
+      "hex": "#E6E1D6",
+      "role": "Primary text",
+      "cmyk": "8 / 8 / 16 / 0"
+    },
+    {
+      "name": "Galvanized",
+      "hex": "#8B9288",
+      "role": "Muted metal, captions",
+      "cmyk": "40 / 25 / 35 / 20"
+    },
+    {
+      "name": "Safety",
+      "hex": "#E85A17",
+      "role": "Load line, CTA, live status. Never large fills.",
+      "cmyk": "0 / 75 / 95 / 0"
+    }
+  ],
+  "type": {
+    "display": "Barlow Condensed",
+    "body": "Source Sans 3",
+    "mono": "IBM Plex Mono"
+  },
+  "clearSpace": "Clear space equals the height of the three bars in the mark. Do not place type inside the bolt-hole square.",
+  "donts": [
+    "Do not recolour the mark to safety orange as a fill.",
+    "Do not outline the wordmark.",
+    "Do not set the name in a script or slab serif.",
+    "Do not stretch the base-plate square.",
+    "Do not use gold, cyan, or lifestyle photography as brand colour."
+  ]
+}

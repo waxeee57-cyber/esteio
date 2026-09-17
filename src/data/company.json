@@ -1,0 +1,41 @@
+{
+  "name": "ESTEIO",
+  "legalName": "Esteio Sistemas Industriais, Lda.",
+  "tagline": "Structure that holds.",
+  "kicker": "Lisboa · since 1998",
+  "description": "Portuguese manufacturer and hire partner for EN-compliant scaffolding, temporary structures, and modular site buildings. Designed in Sacavém. Loaded for Iberian worksites.",
+  "founded": 1998,
+  "vat": "PT 507 448 110",
+  "email": "projectos@esteio.pt",
+  "phone": "+351 21 000 4480",
+  "phoneHref": "tel:+351210004480",
+  "whatsapp": "351210004480",
+  "whatsappDisplay": "+351 21 000 4480",
+  "url": "https://esteio.pt",
+  "hours": "Monday–Friday 08:00–18:00 WET",
+  "yardNote": "Material yard, Loures — collection by appointment, 06:30–17:00",
+  "address": {
+    "street": "Rua das Oficinas 48",
+    "locality": "Sacavém",
+    "region": "Lisboa",
+    "postalCode": "2685-331",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "lat": 38.7936,
+    "lng": -9.1038
+  },
+  "metrics": [
+    { "value": "27", "unit": "years", "label": "on Portuguese sites" },
+    { "value": "48.3", "unit": "mm", "label": "standard tube OD" },
+    { "value": "6.0", "unit": "kN/m²", "label": "class 6 façade load" },
+    { "value": "3", "unit": "storeys", "label": "modular stack rating" }
+  ],
+  "certifications": [
+    { "code": "EN 12810 / 12811", "label": "Façade & access scaffolds" },
+    { "code": "EN 1090-1 EXC2", "label": "Structural steel CE" },
+    { "code": "EN 1065", "label": "Adjustable steel props" },
+    { "code": "EN 12812", "label": "Falsework" },
+    { "code": "ISO 9001", "label": "Quality management" },
+    { "code": "ISO 45001", "label": "Occupational health & safety" }
+  ]
+}
